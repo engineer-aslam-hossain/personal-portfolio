@@ -2,9 +2,9 @@
 
 @import "./fonts.css";
 /* import variable css file */
-@import "./partials/_variables.css";
+@import "./partials/variables.css";
 /* import global css file */
-@import "./partials/_global.css";
+@import "./partials/global.css";
 /* start navigation */
 
 .navbar-brand {
