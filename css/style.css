@@ -68,9 +68,7 @@ a.nav-link:hover {
   padding: 7rem 0;
   width: 90rem;
 }
-.title_text {
-  font: normal bold 50px/72px var(--roboto);
-}
+
 /* /////////// End Banner Area //////////// */
 
 /* /////////// Start About Area //////////// */
@@ -84,7 +82,9 @@ a.nav-link:hover {
 }
 .about_title h2 > span {
   display: block;
-  font: normal bold 49px/60px var(--roboto);
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 60px;
   letter-spacing: 21px;
 }
 
@@ -149,12 +149,16 @@ a.nav-link:hover {
   z-index: -1;
 }
 .years {
-  font: normal bold 84px/40px var(--roboto);
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 40px;
   color: var(--primary-color2);
   z-index: 2;
 }
 .years_area h2 > span {
-  font: normal 600 22px/25px var(--roboto);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
 }
 .call_area {
   padding-left: 10rem;
@@ -192,14 +196,18 @@ a.nav-link:hover {
 .button_group button {
   background: transparent;
   border: none;
-  font: normal 500 16px/130px var(--roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130px;
   text-transform: uppercase;
 }
 .button_group button + button {
   padding-left: 3rem;
 }
 .title h4 {
-  font: normal 700 25px/12px var(--roboto);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 12px;
 }
 
 .img a:hover img {
@@ -208,7 +216,9 @@ a.nav-link:hover {
 }
 
 .title-h1 {
-  font: normal bold 39px/40px var(--roboto);
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 40px;
 }
 /* /////////// End Project Area //////////// */
 
@@ -233,7 +243,9 @@ a.nav-link:hover {
 }
 
 .about-client h4 {
-  font: normal bold 500 21px/20px var(--roboto);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 20px;
 }
 .about-client p {
   font-size: 14px;
@@ -260,7 +272,9 @@ a.nav-link:hover {
   margin: 3rem auto;
 }
 .subscribe-title h4 {
-  font: normal 700 30px/30px var(--roboto);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
   color: whitesmoke;
 }
 
@@ -269,12 +283,14 @@ a.nav-link:hover {
   padding: 1rem 4rem;
 }
 .input_text_box input {
-  width: 400px;
+  width: 395px;
   padding: 1.5rem 1rem;
   border: 1px solid whitesmoke;
   background-color: transparent;
   color: whitesmoke;
-  font: normal 500 17px/20px var(--roboto);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
 }
 .input_text_box input:focus {
   background-color: transparent;
@@ -300,7 +316,9 @@ button.btn.btn-submit.float-right {
   background: url("../images/footer-bg.png") no-repeat;
 }
 .social h5 {
-  font: normal 500 23px/30px var(--roboto);
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 30px;
 }
 .social a > i {
   font-size: 22px;

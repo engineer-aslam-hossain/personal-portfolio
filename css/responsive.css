@@ -82,6 +82,9 @@
   .title.py-4 {
     text-align: center;
   }
+  .img img {
+    width: 70%;
+  }
   form.w-50 {
     width: 90% !important;
   }
