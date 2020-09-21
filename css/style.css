@@ -1,10 +1,10 @@
 /* import fonts from fonts css file */
-@import url(./fonts.css);
-/* import variable css file */
-@import url(./partials/_variables.css);
-/* import global css file */
-@import url(./partials/_global.css);
 
+@import "./fonts.css";
+/* import variable css file */
+@import "./partials/_variables.css";
+/* import global css file */
+@import "./partials/_global.css";
 /* start navigation */
 
 .navbar-brand {
