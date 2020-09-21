@@ -1,0 +1,91 @@
+/* viewport less than 375px  */
+
+@media only screen and (max-width: 375px) {
+  .brand_area,
+  .years_area,
+  .call_area,
+  .about_area,
+  .about_me_area,
+  .button_group button + button,
+  .about_me_title p,
+  .subscribe,
+  .services_area {
+    padding: 5%;
+    margin: 0%;
+  }
+  .bg_panel {
+    left: 0;
+    width: 320px;
+    margin-left: 0;
+  }
+  .navbar_fixed {
+    position: relative;
+    width: 100vw;
+  }
+
+  .title-h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about_title {
+    text-align: center;
+  }
+  .primary-button,
+  .secondary-button {
+    margin: 0.3rem !important;
+  }
+  .button_group button {
+    line-height: 15px;
+  }
+  .paragraph {
+    width: 100% !important;
+  }
+
+  .img img {
+    width: 90vw;
+  }
+
+  .input_text_box input {
+    width: 140px;
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+/* view port 768 */
+
+@media only screen and (max-width: 768px) {
+  .navbar,
+  .navbar-brand,
+  .brand_area {
+    padding: 5%;
+    margin: 0%;
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: flex-end;
+  }
+  .site_title h1,
+  .about_title h2 > span {
+    font-size: 3rem;
+    letter-spacing: normal;
+  }
+  .services {
+    width: 100%;
+  }
+  .button_group button + button {
+    padding-left: 1rem;
+  }
+  .img,
+  .title.py-4 {
+    text-align: center;
+  }
+  form.w-50 {
+    width: 90% !important;
+  }
+  .input_text_box input {
+    width: 100%;
+  }
+}

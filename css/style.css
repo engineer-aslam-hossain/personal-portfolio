@@ -1,0 +1,313 @@
+/* import fonts from fonts css file */
+@import url(./fonts.css);
+/* import variable css file */
+@import url(./partials/_variables.css);
+/* import global css file */
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.navbar-brand {
+  padding: 0 2rem 0 0.5rem;
+}
+.navbar {
+  padding: 0rem 6rem;
+}
+.nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 1.7rem;
+  color: var(--title-color) !important;
+}
+
+a.nav-link.active {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+a.nav-link:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* end navigation */
+
+/* /////////// Start Banner Area //////////// */
+
+.site_main .site_banner {
+  background: url("../images/banner/home-banner.png");
+  background-position: 0% 50%;
+}
+/* .site_title {
+  padding-left: 90px;
+} */
+.site_title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site_title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background-color: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-5px);
+}
+.site_title h1 {
+  font-size: 5rem;
+}
+.site_title h4 {
+  font-size: 1.5rem;
+}
+.banner_img img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+.title_text {
+  font: normal bold 50px/72px var(--roboto);
+}
+/* /////////// End Banner Area //////////// */
+
+/* /////////// Start About Area //////////// */
+
+.about_area {
+  padding: 8rem 5rem;
+}
+.about_img img {
+  width: 90%;
+  padding-top: 8%;
+}
+.about_title h2 > span {
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.paragraph p {
+  padding: 0.4rem 0;
+}
+
+/* /////////// End About Area //////////// */
+
+/* /////////// Start Brand Area //////////// */
+
+.brand_area {
+  padding: 1rem 10rem;
+  margin-bottom: 4rem;
+}
+.first_row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+.single_brands {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+.single_brands img {
+  width: 50%;
+}
+.single_brands:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+.single_brands img:hover {
+  filter: brightness(0.15);
+}
+.experience_area {
+  padding-left: 1rem;
+}
+.experience_area span {
+  display: block;
+}
+.years_area {
+  background: url("../images/client-info-bg.png") no-repeat 45px 20px;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
+.bg_panel {
+  position: absolute;
+  left: -190px;
+  top: 0%;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+}
+.years {
+  font: normal bold 84px/40px var(--roboto);
+  color: var(--primary-color2);
+  z-index: 2;
+}
+.years_area h2 > span {
+  font: normal 600 22px/25px var(--roboto);
+}
+.call_area {
+  padding-left: 10rem;
+}
+/* /////////// End Brand Area //////////// */
+
+/* /////////// Start Services Area //////////// */
+
+.services_area {
+  padding: 7rem 2rem;
+}
+.services_title {
+  padding: 0 1.4rem;
+}
+.services_title h1 {
+  font-size: 35px;
+}
+.services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+.services:hover {
+  box-shadow: var(--box-shadow);
+}
+/* /////////// End Services Area //////////// */
+
+/* /////////// Start Project Area //////////// */
+.project_area {
+  padding: 4rem 0;
+}
+
+.button_group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+.button_group button + button {
+  padding-left: 3rem;
+}
+.title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+  border-radius: 6px;
+}
+
+.title-h1 {
+  font: normal bold 39px/40px var(--roboto);
+}
+/* /////////// End Project Area //////////// */
+
+/* /////////// Start About me  Area //////////// */
+.about_me_area {
+  padding: 5rem 8rem;
+}
+
+.about_me_title p {
+  padding: 1rem 7rem;
+}
+.about_me_area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+.client .client-img {
+  padding: 2rem;
+}
+.about-client {
+  padding-top: 2rem;
+}
+
+.about-client h4 {
+  font: normal bold 500 21px/20px var(--roboto);
+}
+.about-client p {
+  font-size: 14px;
+}
+
+.owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 1.5rem;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+
+/* /////////// End About me  Area //////////// */
+
+/* /////////// Start Subscribe Area //////////// */
+
+.subscribe {
+  background: url("../images/subscribe-bg.png") no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+.subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+
+.subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+.input_text_box input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  color: whitesmoke;
+  font: normal 500 17px/20px var(--roboto);
+}
+.input_text_box input:focus {
+  background-color: transparent;
+  color: whitesmoke;
+}
+input::placeholder {
+  color: whitesmoke !important;
+}
+
+button.btn.btn-submit.float-right {
+  background: white;
+  color: black;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+}
+
+/* /////////// End Subscribe Area //////////// */
+
+/* /////////// Start Footer Area //////////// */
+
+.footer_area {
+  padding: 5rem 0;
+  background: url("../images/footer-bg.png") no-repeat;
+}
+.social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+.social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+.social a:hover > i {
+  color: var(--primary-color);
+}
+/* /////////// End Footer Area //////////// */
