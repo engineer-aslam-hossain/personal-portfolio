@@ -1,14 +1,17 @@
 /* import fonts from fonts css file */
 
-@import "./fonts.css";
+@import './fonts.css';
 /* import variable css file */
-@import "./partials/variables.css";
+@import './partials/variables.css';
 /* import global css file */
-@import "./partials/global.css";
+@import './partials/global.css';
 /* start navigation */
 
 .navbar-brand {
-  padding: 0 2rem 0 0.5rem;
+  padding: 0 2rem 0 1.5rem;
+}
+a.navbar-brand img {
+  width: 7rem;
 }
 .navbar {
   padding: 0rem 6rem;
@@ -39,7 +42,7 @@ a.nav-link:hover {
 /* /////////// Start Banner Area //////////// */
 
 .site_main .site_banner {
-  background: url("../images/banner/home-banner.png");
+  background: url('../images/banner/home-banner.png');
   background-position: 0% 50%;
 }
 /* .site_title {
@@ -50,7 +53,7 @@ a.nav-link:hover {
   font-weight: 500;
 }
 .site_title h3::after {
-  content: "";
+  content: '';
   height: 2px;
   width: 18vw;
   background-color: black;
@@ -131,7 +134,7 @@ a.nav-link:hover {
   display: block;
 }
 .years_area {
-  background: url("../images/client-info-bg.png") no-repeat 45px 20px;
+  background: url('../images/client-info-bg.png') no-repeat 45px 20px;
   padding: 2rem 0;
   width: 40rem;
   height: 18rem;
@@ -184,6 +187,7 @@ a.nav-link:hover {
   transition: box-shadow 0.7s ease;
 }
 .services:hover {
+  cursor: pointer;
   box-shadow: var(--box-shadow);
 }
 /* /////////// End Services Area //////////// */
@@ -267,7 +271,7 @@ a.nav-link:hover {
 /* /////////// Start Subscribe Area //////////// */
 
 .subscribe {
-  background: url("../images/subscribe-bg.png") no-repeat;
+  background: url('../images/subscribe-bg.png') no-repeat;
   padding: 10rem 0;
   margin: 3rem auto;
 }
@@ -313,7 +317,10 @@ button.btn.btn-submit.float-right {
 
 .footer_area {
   padding: 5rem 0;
-  background: url("../images/footer-bg.png") no-repeat;
+  background: url('../images/footer-bg.png') no-repeat;
+}
+.social {
+  padding-top: 5rem;
 }
 .social h5 {
   font-weight: 500;
@@ -324,6 +331,7 @@ button.btn.btn-submit.float-right {
   font-size: 22px;
   padding: 2rem;
   color: var(--border-color);
+  transition: 0.4s ease;
 }
 .social a:hover > i {
   color: var(--primary-color);
